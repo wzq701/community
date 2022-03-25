@@ -1,0 +1,95 @@
+HTTP
+HyperText Transfer Protocol
+超文本传输协议
+用于传输HTML等内容的应用层协议
+规定了浏览器和服务器之间如何通信，
+以及通信时的数据格式
+https://www.ietf.org
+https://developer.mozilla.org/zh-CN
+
+响应状态码的含义
+100
+101
+102
+103
+
+200  成功
+
+       302 location
+
+转发  重定向
+location
+
+404
+
+500 服务器发生了错误
+
+
+Spring Boot 入门示例
+.Spring Boot 核心作用
+     -起步依赖、自动配置、端点监控
+.一个简单的处理客户端请求案例
+
+Spring 入门 基石
+Spring Framework  核心
+  Spring Core
+   -IOC、AOP
+ Spring Data Access
+   -Transactions、Spring MyBatis
+ Web Servlet
+   -Spring MVC
+ Integration
+   -Email、Scheduling、AMQP、Security
+
+
+
+Spring Boot   构建项目更加容易方便
+///////////////////////////////////
+Spring Cloud   微服务  拆分成多个子项目
+Spring Cloud Data Flow  数据集成
+
+
+
+Spring IoC
+Inversion of Control
+  控制反转是一种面向对象编程的设计思想
+Dependency Injection
+  依赖注入,是IoC思想的实现方式
+IoC Cotainer
+  Ioc 容器，是实现依赖注入的关键，本质上是一个工厂
+
+
+Mybatis
+ 核心组件
+    SqlSessionFactory:用于创建SQL session的工厂类
+    SqlSession:MyBatis的核心组件，用于向数据库执行Sql
+    主配置文件:XML配置文件，可以对Mybatis的底层行为做出详细配置
+    Mapper接口:Dao接口,在Mapper中习惯称之为Mapper
+    Mapper映射器用于编写SQL并将Sql和实体类映射的组件，采用XML,注解均可实现
+
+
+logback SpringBoot日志工具
+设置日志级别
+
+
+
+
+cd 相应目录
+git init
+git status
+git add *
+git commit -m "test1"
+
+
+
+ssh-keygen -t rsa -C "3172540646@qq.com"
+C:\Users\MisakaMikoto\.ssh\id_rsa.pub
+
+$ git remote add origin https://github.com/wzq701/mavendemo2.git
+
+git push -u origin master
+
+
+克隆到本地
+
+git clone git@github.com:wzq701/mavendemo2.git
